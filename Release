@@ -1,0 +1,12 @@
+Origin: ethxnn88's Repo
+Label: ethxnn88's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Just personal projects I thought other people would like :)
+
+SHA256:
+ a250f0e06bce2783bf39188b31fbcebe7d37f2c31a77254bfa9e80b4f54733da 601 Packages.bz2
+ dc231eabf5faa76a421602c10f6bd458e4b396689c8e0b12376f3495031422df 596 Packages.xz
