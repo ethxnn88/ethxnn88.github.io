@@ -3,10 +3,10 @@ Label: ethxnn88
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Just some personal projects I thought others may like :)
 
 SHA256:
- ec65e6b8e55f7c9d410558c961e9bbcb768a0f1f0b3531b56a498c0803038661 610 Packages.bz2
- f7f29b8b105acd00c359d1fcec37796e3f3655807fbc4b44cef2d57153aad027 596 Packages.xz
+ 53890125aae7517653be86ba3ac7ba2a160fa1c4d803e5141b2a8beaab954dca 600 Packages.bz2
+ f2722c2f67018654216341aa66d301e400fcba3b1bca4ef1089673339ec8902c 596 Packages.xz
