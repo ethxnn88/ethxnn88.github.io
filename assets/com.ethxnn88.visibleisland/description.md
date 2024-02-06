@@ -7,6 +7,7 @@ VisibleIsland brings a new and simple way to enable and configure the Dynamic Is
 - Set the position of the Dynamic Island to anywhere you want using custom X and Y offsets
 
 **Disclaimer**
+
 As of now, the option to fix the Dynamic Island position to directly under the notch is only officially supported on a few devices (list below), as I don't have a huge spectrum of devices to test on. If your device isn't fully compatible, use the custom positioning instead.
 
 **Fully supported devices:**
@@ -18,6 +19,7 @@ As of now, the option to fix the Dynamic Island position to directly under the n
 - iPhone 14
 
 **Version/jailbreak compatibility**
+
 Full support for iOS 16.0 - 16.6.1, currently only built for/tested on roothide (Serotonin) but should ideally work without a problem on rootless as well.
 
 **Coming soon:**
