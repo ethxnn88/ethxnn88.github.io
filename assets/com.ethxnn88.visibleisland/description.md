@@ -30,4 +30,4 @@ Full support for iOS 16.0 - 16.6.1, currently only built for/tested on roothide 
 - More official device support
 - Possible iPad support
 - Add options to customize the scale of the Dynamic Island
-- Add options to fix the position of notification banners (underneath the island) and/or set custom positioning
+- Add options to fix the position of notification banners (island covering them) and/or set custom positioning
