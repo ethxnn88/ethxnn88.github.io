@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>VisibleIsland</title>
+    <link rel="stylesheet" type="text/css" href="../../web/index.css">
+    <style>a, .tint, .table-btn:after {color: #00a3ff} .active {color: #00a3ff;border-bottom: 2px solid #00a3ff;}</style>
+    <script src="../../web/index.js"></script>
+    <meta name="description" content="A package by ethxnn88 for iOS 16.0 to 16.6.1.">
+    <meta property="og:title" content="VisibleIsland">
+    <meta property="og:description" content="A package by ethxnn88 for iOS 16.0 to 16.6.1.">
+    <meta property="og:image" content="../../assets/com.ethxnn88.visibleisland-arm64e/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VisibleIsland">
+    <meta name="twitter:description" content="A package by ethxnn88 for iOS 16.0 to 16.6.1.">
+    <meta name="twitter:image" content="https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland-arm64e/banner.png">
+    <meta name="theme-color" content="#00a3ff">
+</head>
+<body>
+    <div class="body">
+        <div style="background-image: url(../../assets/com.ethxnn88.visibleisland-arm64e/banner.png)" class="banner_underlay"></div>
+        <div class="package package_head">
+            <img src="../../assets/com.ethxnn88.visibleisland-arm64e/icon.png">
+            <div class="package_info">
+                <h1 class="package_name">VisibleIsland</h1>
+                <p class="package_caption">ethxnn88</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">
+            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 16.0 to 16.6.1.</p>
+            <div class="scroll_view"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc1.png"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc2.png"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc3.png"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc4.png"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc5.png"><img class="img_card" src="../../assets/com.ethxnn88.visibleisland-arm64e/screenshot/sc6.png"></div>
+            <div class="md_view">
+                <p><h1>VisibleIsland</h1>
+<p>VisibleIsland brings a new and simple way to enable and configure the Dynamic Island on older devices.</p>
+<h2>Features:</h2>
+<ul>
+<li>Enable/disable the Dynamic Island with the flip of a switch</li>
+<li>Fix the position of the Dynamic Island to be under the notch as opposed to halfway under it</li>
+<li>Set the position of the Dynamic Island to anywhere you want using custom X and Y offsets</li>
+<li>Hide the Dynamic Island when not in use</li>
+<li>Fix the position of notification banners to below the island for better visibility</li>
+<li>Set the position of notification banners to anywhere using custom X and Y offsets</li>
+<li>Set the scale of the Dynamic Island to whatever size you like</li>
+<li>Set the transparency of the Dynamic Island to exactly what you want</li>
+<li>Customize the color of the Dynamic Island</li>
+</ul>
+<p><strong>Disclaimer</strong></p>
+<p>As of now, the option to fix the Dynamic Island position to directly under the notch is only officially supported on a few devices (list below), as I don't have a huge spectrum of devices to test on. If your device isn't fully compatible, use the custom positioning instead.</p>
+<h2>Fully supported devices:</h2>
+<ul>
+<li>iPhone X</li>
+<li>iPhone XS</li>
+<li>iPhone 11 Pro</li>
+<li>iPhone 13</li>
+<li>iPhone 13 Pro</li>
+<li>iPhone 14</li>
+</ul>
+<p><strong>Note</strong></p>
+<p>Some devices are currently set up using &quot;fake&quot; offsets calculated by setting the resolution on a device with the same size notch and finding a good position for the island. I'm not sure if these will work correctly on these devices, but ideally they should. Here's a list of the &quot;fake&quot; offset devices below.</p>
+<h2>&quot;Fake&quot; offset devices:</h2>
+<ul>
+<li>iPhone XR</li>
+<li>iPhone 11</li>
+<li>iPhone XS Max</li>
+<li>iPhone 11 Pro Max</li>
+<li>iPhone 13 Mini</li>
+<li>iPhone 13 Pro Max</li>
+</ul>
+<p><strong>Version/jailbreak compatibility</strong></p>
+<p>Full support for iOS 16.0 - 16.6.1 rootless or roothide (bootstrap + serotonin)</p>
+<p><strong>Coming soon:</strong></p>
+<ul>
+<li>More official device support</li>
+<li>iPad support (v2.1?)</li>
+<li>Fix the status bar size to accommodate for the Dynamic Island (maybe)</li>
+</ul>
+<p><strong>Known issues (fixes soon):</strong></p>
+<ul>
+<li>Black rectangle behind some elements (i.e. timer or FaceID unlock glyph) when using a custom color and/or transparency</li>
+<li>Red status bar (😳 rdar:45025538) on iPhone XR and 11 - a separate fix already exists but I'll implement it into the tweak soon</li>
+</ul>
+</p>
+            </div>
+            <h3>Information</h3>
+            <div class="table">
+                <div class="cell">
+                    <div class="title">Developer</div>
+                    <div class="text">ethxnn88</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">2.0</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Compatibility</div>
+                    <div class="text">iOS 16.0 to 16.6.1</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Tweaks</div>
+                    <br><br>
+                </div>
+            </div>
+            <a href="https://github.com/ethxnn88/VisibleIsland" class="table-btn">
+                <div>View Source Code</div>
+            </a>
+        </div>
+        <div class="changelog">
+            <div class="changelog_entry">
+                <h4>2.0</h4>
+                <div class="md_view"><p>New:</p>
+<ul>
+<li>Fixed a bug where the Dynamic Island would flicker and shake when 'hide when not in use' is enabled</li>
+<li>Added new options to customize the color of the Dynamic Island</li>
+<li>Added a new option to hide the island outline</li>
+<li>Added a new option to customize the scale of the Dynamic Island</li>
+<li>Added a new option to set a custom transparency for the Dynamic Island</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.1-b1</h4>
+                <div class="md_view"><p>New features:</p>
+<ul>
+<li>Added new option to disable the Dynamic Island when not in use</li>
+<li>Added option to move notification banners to below the Dynamic Island</li>
+<li>Added custom positioning for notification banners using custom X and Y offsets</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.0-b1</h4>
+                <div class="md_view"><p>Initial beta release</p>
+</div>
+            </div>
+        </div>
+        <div class="caption center footer">Silica 1.2.2 – Updated 2024-02-23</div>
+    </div>
+</body>
+<script>compatible("16.0","16.6.1","iOS 16.0 to 16.6.1");externalize()</script>
+</html>
