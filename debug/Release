@@ -1,0 +1,12 @@
+Origin: ethxnn88
+Label: ethxnn88
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Just some personal projects I thought others may like :)
+
+SHA256:
+ 4e79329ccce7b433248b9b7cbd8ddbcd5af586ade4573c31516fa6fc11b5c94c 624 Packages.bz2
+ ead86920f9893920cc38c12d8ea2ae497e44885e8201265437c47d9a14e35bda 600 Packages.xz
