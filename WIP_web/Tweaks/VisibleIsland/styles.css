@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background: linear-gradient(90deg, #333, #656565);
+    color: #fff;
+    padding: 17px 0;
+}
+
+.menubar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar h1 {
+    font-size: 1.7em;
+    margin: 5px;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.branding h1 {
+    margin-left: 15px;
+    font-size: 1.65em;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.7);
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color .2s;
+}
+
+nav ul li a:hover {
+    color: #999999;
+}
+
+.pagetitle {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+.pagetitle h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    margin: 5px auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+main h3 {
+    font-size: 1.2em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-size: 1.6em;
+    margin: 0px 0px 15px 0px;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+main ul li {
+    line-height: 1.4;
+    font-size: 1.07em;
+}
+
+.divmd {
+    margin: 13px 0 13px 0px;
+    width: 90%;
+}
+
+.divider {
+    width: 21%;
+    margin: 0px;
+    height: 1.5px;
+    border: 0;
+    background: #565656
+}
+
+footer {
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+footer .socials a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 25%;
+}
+
+footer p {
+    margin: 0;
+}
+
