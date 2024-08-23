@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    color: #141414;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background: #141414;
+    color: #fff;
+    padding: 17px 0;
+}
+
+.menubar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar h1 {
+    font-size: 1.7em;
+    margin: 5px;
+}
+
+.desktop-menu {
+    display: flex;
+}
+
+.navdiv {
+    width: 45%;
+    margin: 0 1 0 0;
+    height: 1.5px;
+    border: 0;
+    background: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.closeicon {
+    display: none;
+    font-size: 2.1em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -120px;
+    width: 120px;
+    height: 100%;
+    background-color: #2a2a2a;
+    padding-top: 22px;
+    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.mobile-menu ul li {
+    margin: 0 0 20px 0;
+    display: block;
+    width: 100%;
+}
+
+.mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+@media (max-width: 800px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .hamburger, .closeicon {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.branding h1 {
+    margin-left: 15px;
+    font-size: 1.65em;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.7);
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color .2s;
+}
+
+nav ul li a:hover {
+    color: #999999;
+}
+
+.pagetitle {
+    text-align: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    width: 80%;
+    margin: 20px auto -15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+.pagetitle h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    width: 80%;
+    margin: 35px auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+c1, c2 {
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    width: 80%;
+    margin: 35px auto -5px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+}
+
+c1 h2, c2 h2 {
+    font-size: 1.6em;
+    margin: 0px 0px 15px 0px;
+}
+
+c1 p, c2 p {
+    font-size: 1.105em;
+    line-height: 1.55;
+    margin-bottom: 0;
+}
+
+.divider {
+    width: 45%;
+    margin: 0px;
+    height: 1.8px;
+    border: 0;
+    background: #ffffff
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+footer .socials a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 25%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    background-color: #606060;
+    width: 110px;
+    margin: 20px auto 5px;
+    border-radius: 20px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    line-height: .4;
+}
